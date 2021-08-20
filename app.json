@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "deezer-test",
+    "slug": "deezer-test",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "deezer-test"
+}
