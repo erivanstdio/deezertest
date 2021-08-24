@@ -27,6 +27,14 @@ const styles = StyleSheet.create({
     fontSize: 10,
     color: '#fff'
   },
+  duration: {
+    alignSelf: 'center',
+    marginLeft: 120,
+  },
+  durationText: {
+    fontSize: 12,
+    color: '#fff'
+  }
 })
 
 export default styles;

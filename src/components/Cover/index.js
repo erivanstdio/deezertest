@@ -1,10 +1,12 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Image } from 'react-native';
 import styles from './styles';
 
-const Cover = () => {
+const Cover = ({img}) => {
   return(
-    <View style={styles.container}></View>
+    <View>
+      <Image style={styles.container} source={{ uri:img }}/>
+    </View> 
   );
 }
 
